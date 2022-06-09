@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgb(248, 94, 248);
+    margin-bottom: 4px;
+}
+
+button {
+    background: rgb(248, 94, 248);
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(248, 94, 248);
+    font-weight: bold;
+}
+
+#delete-btn {
+    background: white;
+    color: #5f9341;
+}
+
+a {
+    color: #5f9341;
+}
+
+.post {
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+.post-question {
+    padding: 5px;
+}
+
+.post-author {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.post-items-item-percentage {
+    padding: 2px;
+    opacity:0;
+    position: absolute;
+    right:5px;
+}
+
+.post-items-item {
+    margin: 2px;
+    height:30px;
+    position:relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    border: 1px solid #d4d4d4;
+    border-radius: 15px;
+}
+
+.post-items{
+    margin-top: -14px;
+    margin-left:-40px;
+}
+
+.post-items-item-name{
+    position:absolute;
+    left:5px;
+}
+
+.post-items-item-colorBar{
+    height:30px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+

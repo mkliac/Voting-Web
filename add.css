@@ -1,0 +1,30 @@
+#add-btn{
+    position:fixed;
+    bottom: 20px;
+    left:20px;
+    height: 50px;
+    border-radius:25px;
+    background-color:rgb(248, 94, 248);
+    z-index:100;
+    transform:rotate(-360deg);
+    transition: transform 1.5s;
+}
+
+#add-btn:hover{
+    transform:rotate(360deg);
+    transition: transform 1.5s;
+}
+
+#add-info{
+    display:none;
+    position:fixed;
+    z-index:100;
+    left: 10px;
+    right:10px;
+    padding: 10px;
+    border: 1px solid rgb(248, 94, 248);
+    background-color: white;
+    opacity:0.9;
+    border-radius:20px;
+}
+
